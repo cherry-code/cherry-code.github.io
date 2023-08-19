@@ -1,0 +1,102 @@
+html {
+    background-color: #dcf7e4;
+    margin: 0 auto;
+    font-family: 'Ysabeau Infant';
+}
+
+body{
+    margin: 0
+}
+
+header {
+    position: sticky;
+    width: 100%;
+}
+
+nav{
+    color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width:100%;
+    top: 0px;
+    overflow: hidden;
+}
+
+.nav {
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: bold; 
+    padding-left: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+nav ul li a{
+    font-size: 17px; 
+    text-transform: uppercase;
+    padding: 30px 40px;
+    min-width: 900px;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+nav a:hover, a:active {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#content {
+    z-index:1;
+    background-color: rgb(255,255,255, 0.6);
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 20px;
+    float: right;
+    margin: 50px 70px;
+    position: relative;
+}
+
+.faceintro {
+    background-image: url("me.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#gettoknow {
+    padding: 40px 100px;
+    background-color: white;
+    FONT-SIZE: 20PX;
+}
+
+button {
+    background-color: black;
+    border: 2px black solid;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: rgb(220,247,228,0.7);
+    color: black;
+}
