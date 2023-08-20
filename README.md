@@ -1,1 +1,62 @@
 # cherrycode.github.io
+<!DOCTYPE html>
+
+<html lang="en">
+    <meta charrset = "UTF-8">
+    <meta name="viewport" content = "width=devvice-width", initial-scale="1.0">
+    <link rel="stylesheet" href="websitestyle.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>  
+    <link href='https://fonts.googleapis.com/css?family=Ysabeau Infant' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Chewy" />
+
+
+    <header>
+        <nav>
+            <label class = "nav">cherrycho</label>
+            <ul class = "navbar">
+                <li><a class="active" href="/">Home</a></li>
+                <li class="dropdown">
+                    <a href="about-me.html">About Me</a>
+                    <!--<ul class="dropdown-content">
+                        <li><a href="/">Bio</a></li>
+                        <li><a href="/">Experience</a></li>
+                        <li><a href="/">Current Obsessions</a></li>
+                    </ul>-->
+                </li>
+                <li><a href="projects.html">Projects</a></li>
+                    <!--<li><a href="/">Games</a></li>-->
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="contact-me.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        
+        <div class = "faceintro">
+            <div id = "content">
+                <h1>
+                    Tenzin Choezom
+                </h1>
+                <p1>Web Developer & Software Engineer</p>
+            </div>
+        
+        </div>
+
+        <div id = "gettoknow">
+            <h2>Get to know me...</h2>
+            <p1>A third-year Computer Engineering major in the process of acquiring a bachelor's degree and currently seeking experience in the industry to put my knowledge to use. In the process of gaining knowledge on machine learning and data science as well as exploring my interest in web development. I have so far established a foundation in machine learning algorithms by using Python libraries such as Scikit-Learn, Pandas, and Matplotlib.</p1>
+            <div class="button">
+                <a href="Tenzin_Choezom_Resume.pdf" download="Tenzin_Choezom_Resume.pdf" target="_blank">
+                    <button>Download Resume</button>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+
+        </footer>
+
+
+    </body>
+
+</html>
