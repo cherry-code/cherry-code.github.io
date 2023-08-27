@@ -14,6 +14,12 @@ body{
     background-color: white;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+}
 nav{
     color: black;
     height: 80px;
@@ -66,7 +72,28 @@ h2 {
     font-weight: bold;
     font-size: 45px;
     background-color: #dcf7e4;
-    padding: 40px 20px;
+    padding: 20px 0;
+}
+
+.left,
+.right {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+    left:0;
+    background-image: url("https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg");
+    height: 100vh;
+    background-position: right;
+}
+.right {
+    right: 0;
+    background: white;
 }
 
 .form {
