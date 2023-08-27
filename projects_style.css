@@ -78,3 +78,29 @@ nav a:hover, a:active {
     display: block;
     margin: 20px auto;
 }
+
+a .project-link {
+    text-decoration: underline;
+    background-color: black;
+    color:red;
+    padding: 2px;
+}
+
+a .project-link :hover {
+    text-decoration:none;
+    background-color: red;
+    color:black;
+}
+
+iframe {
+    padding: 5px;
+    border:2px solid black;
+}
+
+#video {
+    text-align: center;
+}
+
+.date {
+    font-style: italic;
+}
