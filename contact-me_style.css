@@ -1,0 +1,109 @@
+html {
+    background-color: #dcf7e4;
+    margin: 0 auto;
+    font-family: 'Ysabeau Infant';
+}
+
+header {
+    position: sticky;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+nav{
+    color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width:100%;
+    top: 0px;
+    overflow: hidden;
+}
+
+.nav {
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: bold; 
+    padding-left: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+nav ul li a{
+    font-size: 17px; 
+    text-transform: uppercase;
+    padding: 30px 40px;
+    min-width: 900px;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+nav a:hover, a:active {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    background-color: #dcf7e4;
+    padding: 40px 20px;
+}
+
+.form {
+    padding-bottom: 50px;
+}
+
+.fcf-form-group {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.fcf-form-control {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+    resize: vertical; 
+}
+
+.fcf-input-group {
+    padding: 20px;
+    width: 70%;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    height: auto;
+    background-color: #dcf7e4;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Ysabeau Infant';
+    font-weight: bold;
+}
