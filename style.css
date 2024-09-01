@@ -1,7 +1,7 @@
 html {
-    background-color: #dcf7e4;
     margin: 0 auto;
     font-family: 'Ysabeau Infant';
+    background-color: #cedada;
 }
 
 body{
@@ -14,12 +14,12 @@ header {
 }
 
 nav{
-    color: black;
+    color: #cedada;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #695958;
     width:100%;
     top: 0px;
     overflow: hidden;
@@ -54,15 +54,16 @@ a:visited {
 }
 
 nav a:hover, a:active {
-    background-color: black;
-    color: white;
+    background-color: #cedada;
+    color: #695958;
     transition: .5s;
     text-decoration: none;
 }
 
 #content {
     z-index:1;
-    background-color: rgb(255,255,255, 0.6);
+    background-color: #695958;
+    color: #cedada;
     font-size: 30px;
     margin-left: auto;
     margin-right: 0;
@@ -82,21 +83,21 @@ nav a:hover, a:active {
 
 #gettoknow {
     padding: 40px 100px;
-    background-color: white;
+    background-color: #cedada;
     FONT-SIZE: 20PX;
 }
 
 button {
-    background-color: black;
-    border: 2px black solid;
+    background-color: #695958;
+    border: 2px #695958 solid;
     width: 200px;
     height: 50px;
     font-size: 20px;
-    color: white;
+    color: #cedada;
     margin: 20px;
 }
 
 button:hover {
-    background-color: rgb(220,247,228,0.7);
-    color: black;
+    background-color: #cedada;
+    color: #695958;
 }
