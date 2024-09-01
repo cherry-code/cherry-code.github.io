@@ -1,7 +1,6 @@
 html {
     margin: 0 auto;
     font-family: 'Ysabeau Infant';
-    background-color: #cedada;
 }
 
 body{
@@ -14,12 +13,12 @@ header {
 }
 
 nav{
-    color: #cedada;
+    color: white;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #695958;
+    background-color: #9b6a6c;
     width:100%;
     top: 0px;
     overflow: hidden;
@@ -54,16 +53,16 @@ a:visited {
 }
 
 nav a:hover, a:active {
-    background-color: #cedada;
-    color: #695958;
+    background-color: #e2b4bd;
+    color: #424b54;
     transition: .5s;
     text-decoration: none;
 }
 
 #content {
     z-index:1;
-    background-color: #695958;
-    color: #cedada;
+    background-color: #9b6a6c;
+    color: white;
     font-size: 30px;
     margin-left: auto;
     margin-right: 0;
@@ -83,21 +82,22 @@ nav a:hover, a:active {
 
 #gettoknow {
     padding: 40px 100px;
-    background-color: #cedada;
+    background-color: white;
     FONT-SIZE: 20PX;
+    color: #424b54;
 }
 
 button {
-    background-color: #695958;
-    border: 2px #695958 solid;
+    background-color: #93a8ac;
+    border: 2px white solid;
     width: 200px;
     height: 50px;
     font-size: 20px;
-    color: #cedada;
+    color: white;
     margin: 20px;
 }
 
 button:hover {
-    background-color: #cedada;
-    color: #695958;
+    background-color: #424b54;
+    color: white;
 }
