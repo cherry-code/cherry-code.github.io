@@ -1,7 +1,10 @@
 html {
-    background-color: #dcf7e4;
     margin: 0 auto;
     font-family: 'Ysabeau Infant';
+}
+
+body{
+    margin: 0
 }
 
 header {
@@ -9,18 +12,13 @@ header {
     width: 100%;
 }
 
-body{
-    margin: 0;
-    background-color: white;
-}
-
 nav{
-    color: black;
+    color: white;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #9b6a6c;
     width:100%;
     top: 0px;
     overflow: hidden;
@@ -55,8 +53,8 @@ a:visited {
 }
 
 nav a:hover, a:active {
-    background-color: black;
-    color: white;
+    background-color: #e2b4bd;
+    color: #424b54;
     transition: .5s;
     text-decoration: none;
 }
